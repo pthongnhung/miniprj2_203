@@ -5,8 +5,7 @@ public class Student {
     private String name;
     private double score;
 
-    public Student() {
-    }
+    public Student() {}
 
     public Student(String id, String name, double score) {
         this.id = id;
@@ -18,20 +17,20 @@ public class Student {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public double getScore() {
         return score;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setScore(double score) {

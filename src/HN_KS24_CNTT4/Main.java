@@ -12,7 +12,7 @@ public class Main {
         System.out.println("1. Nhập danh sách sinh viên");
         System.out.println("2. Hiển thị danh sách sinh viên");
         System.out.println("3. Tìm kiếm sinh viên theo Học lực");
-        System.out.println("4. Sắp xếp theo học lực giảm dần");
+        System.out.println("4. Sắp xếp theo điểm giảm dần");
         System.out.println("5. Thoát");
         System.out.println("==================================");
         System.out.print("Chọn chức năng: ");
@@ -81,10 +81,9 @@ public class Main {
                 }
             }
         }
-        System.out.println("Đã sắp xếp theo học lực giảm dần!");
+        System.out.println("Đã sắp xếp theo điểm giảm dần!");
     }
-
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         int choice;
 
         do {
